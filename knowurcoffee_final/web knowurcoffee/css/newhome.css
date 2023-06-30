@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #0B0A0A;
+  }
+  
+  #nav .leftnav {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    height: 100%;
+    font-family: "Poppins";
+  }
+
+.logo img{
+  height: auto;
+  width: 160px;
+  padding: 20px;
+}
+  
+  #nav .leftnav h1 {
+    font-size: 35px;
+    color: #9B824D;
+    padding: 20px 20px;
+    font-family: "Poppins";
+    margin-right: 70px;
+  }
+  
+  #nav .leftnav .menuBar button {
+    display: none;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  #nav .leftnav .links {
+    display: flex;
+    gap: 100px;
+  }
+  
+  #nav .leftnav .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  #nav .leftnav .links a:hover {
+    text-decoration: underline;
+    color: #9B824D;
+  }
+  
+  
+  #nav .rightnav a img {
+    padding-right: 20px;
+    width: 70px;
+    height: auto;
+  }
+
+  #content {
+    background-image: url(/assets/Coffeehouse+background.jpg);
+    height: 400px;
+    align-items: center;
+    padding: 20px;;
+    
+  }
+  
+  #content h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Poppins;
+    width: 660px;
+    top: 20px;
+  }
+
+  .highlightcoffee{
+    color:#9B824D
+  }
+
+#content p{
+    color:white;
+    font-family: Poppins;
+    padding-top: 40px;
+    width: 540px;
+    height: 20px;
+}
+
+.highlightrecom{
+  color: white;
+}
+
+#Recommended{
+  /* display: flex; */
+  background-color: #0B0A0A;
+  padding: 20px;
+  font-family: Poppins;
+  font-size: 20px;
+}
+
+#Recommended h1 {
+    background-color: #0B0A0A;
+    color: #9B824D;
+    padding: 20px;
+    font-family: Poppins;
+    font-size: 32px;
+  }
+
+  #Recommended a {
+    background-color: #0B0A0A;
+    color: white;
+    padding: 20px;
+    font-family: Poppins;
+    font-size: 18px;
+    margin-left: 1400px;
+    text-decoration: none;
+  }
+
+  #Recommended a:hover{
+    color:#9B824D
+  }
+#imagecontainer{
+    background-color:#9B824D;
+    height: 400px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#imagecontainer a:hover{
+  transform: scale(1.2);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+  

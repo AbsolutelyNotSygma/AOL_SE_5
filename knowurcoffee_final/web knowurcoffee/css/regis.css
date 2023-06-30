@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif
+    }
+        
+    .navi{
+        width: 100%;
+        padding: 5px 10px;
+        background: rgba(30, 30, 30, 1);
+    }
+        
+    .nav-logo img{
+        height: 80px;
+    }
+
+    .navi ul{
+        font-size:xx-large;
+        display: flex;
+        list-style: none;
+    }
+        
+    .navi ul li:first-child{
+        flex: 1;
+    }
+        
+    .navi ul a{
+        font-size: 25px;
+        margin-left: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgba(30, 30, 30, 1);
+        text-decoration: none;
+    }
+        
+    .navi ul h4{
+        font-family: serif;
+        margin-right: 720px
+    }
+        
+    .navi ul h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 60px;
+    }
+    
+    .login{
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+        background-image: linear-gradient(#000000c3, #000000c3), url(/assets/coffee.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        overflow: hidden;
+    }
+
+    .logintitle h1{
+        text-align: center;
+        padding: 20px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        margin-bottom: 50px;
+    }
+    
+    .login form{
+        position: absolute;
+        width: 500px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px; 
+        padding: 40px;
+        box-sizing: border-box;
+    }
+
+    .login label{
+        color: white;
+        margin-left: 30px;
+    }
+
+    .sub{
+        text-align: center;
+    }
+
+    .toprow{
+        display: flex;
+    }
+
+    .bottomrow{
+        display: flex;
+    }
+    
+    form .text{
+        position: relative;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 20px;
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .text input{
+        width: 100%;
+        padding: 5px;
+        height: 40px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        outline: none;
+    }
+    
+    .text label{
+        position: absolute;
+        color: rgba(255, 255, 255, 1);
+        transform: translateY(-50%);
+        font-size: 16px;
+        pointer-events: none;
+        padding-bottom: 20px;
+    }
+    
+    input[type="submit"]{
+        /* display: block; */
+        width: 150px;
+        height: 50px;
+        background: rgba(155, 130, 77, 1);
+        font-size: 18px;
+        border-radius: 25px;
+        cursor: pointer;
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    .signup{
+        margin: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .signup a{
+        color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+    }
+    
+    .signup a:hover{
+        text-decoration: underline;
+    }
+    
+    .about_us{
+        height: 59px;
+        text-align: center;
+        background: rgba(30, 30, 30, 1);
+    }

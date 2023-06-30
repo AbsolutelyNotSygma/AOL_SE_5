@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins';
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #0B0A0A;
+  }
+  
+  #nav .leftnav {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    height: 100%;
+    font-family: "Poppins";
+  }
+  
+  #nav .leftnav h1 {
+    font-size: 35px;
+    color: #9B824D;
+    padding: 20px 20px;
+    font-family: "Poppins";
+    margin-right: 70px;
+  }
+  
+  #nav .leftnav .menuBar button {
+    display: none;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  #nav .leftnav .links {
+    display: flex;
+    gap: 100px;
+  }
+  
+  #nav .leftnav .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  #nav .leftnav .links a:hover {
+    text-decoration: underline;
+    color: #9B824D;
+  }
+  
+  #nav .rightnav {
+    background-color: #9B824D;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+  }
+  
+  #nav .rightnav a {
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 862px;
+    margin: 0;
+    padding: 0;
+    background: #141414;
+}
+
+.LineBar{
+    position: absolute;
+width: 1440px;
+height: 0px;
+left: 0px;
+top: 137px;
+
+border: 1px solid #FFFFFF;
+}
+
+.search{
+    position: absolute;
+    width: 32px;
+    height: 30px;
+    left: 430px;
+    top: 180px;
+}
+
+.SearchBar{
+    position: absolute;
+width: 595px;
+height: 50px;
+left: 421px;
+top: 170px;
+
+background: #FFFFFF;
+border-radius: 30px;
+}
+
+
+
+.Coffee1 {
+    position: absolute;
+    width: 337px;
+    height: 387px;
+    left: 155px;
+    top: 254px;
+
+}
+
+.Coffe2 {
+    position: absolute;
+    width: 337px;
+    height: 387px;
+    left: 550px;
+    top: 254px;
+    
+
+}
+
+.Coffee3 {
+    position: absolute;
+    width: 337px;
+    height: 387px;
+    left: 958px;
+    top: 254px;
+}
+
+.Coffee12{
+    position: absolute;
+    width: 337px;
+    height: 388px;
+    left: 149px;
+    top: 678px;
+}
+
+.Coffe22{
+    position: absolute;
+    width: 337px;
+    height: 387px;
+    left: 550px;
+    top: 684px;
+}
+
+.Coffee32{
+    position: absolute;
+    width: 337px;
+    height: 387px;
+    left: 958px;
+    top: 684px;
+}
+
+.Coffee13{
+    position: absolute;
+    width: 337px;
+    height: 387px;
+    left: 155px;
+    top: 1103px;
+}
+
+.Coffe23{
+    position: absolute;
+    width: 337px;
+    height: 387px;
+    left: 550px;
+    top: 1108px;
+
+}
+
+.Coffee33{
+    position: absolute;
+width: 337px;
+height: 387px;
+left: 958px;
+top: 1108px;
+
+}

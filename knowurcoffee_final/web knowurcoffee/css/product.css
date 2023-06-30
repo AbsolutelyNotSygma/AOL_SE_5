@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #0B0A0A;
+}
+
+#nav .leftnav {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  height: 100%;
+  font-family: "Poppins";
+}
+
+.logo img{
+height: auto;
+width: 160px;
+padding: 20px;
+}
+
+#nav .leftnav h1 {
+  font-size: 35px;
+  color: #9B824D;
+  padding: 20px 20px;
+  font-family: "Poppins";
+  margin-right: 70px;
+}
+
+#nav .leftnav .menuBar button {
+  display: none;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+}
+
+#nav .leftnav .links {
+  display: flex;
+  gap: 100px;
+}
+
+#nav .leftnav .links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#nav .leftnav .links a:hover {
+  text-decoration: underline;
+  color: #9B824D;
+}
+
+
+#nav .rightnav a img {
+  padding-right: 20px;
+  width: 70px;
+  height: auto;
+}
+
+.items{
+  background-color: #141414;
+  max-width: 100%;
+    height: auto;
+}
+
+.weight{
+  position: absolute;
+  width: 231px;
+  height: 50px;
+  left: 1191px;
+  top: 850px;
+  color: white;
+  font-size: 25px;
+}
+
+.price{
+  position: absolute;
+  width: 231px;
+  height: 50px;
+  left: 1291px;
+  top: 840px;
+  color: white;
+  font-size: 35px;
+}
+
+.buttonlogout{
+  /* LogoutButton */
+position: absolute;
+width: 231px;
+height: 50px;
+left: 1161px;
+top: 900px;
+  
+  background: #9B824D;
+  border-radius: 30px;
+}
+.logout{
+  /* Log out text */
+  position: absolute;
+  width: 88px;
+  height: 35px;
+  left: 1248px;
+  top: 908px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.notif{
+  position: absolute;
+  left: 1075px;
+  top: 900px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background: rgba(155, 130, 77, 1);
+  font-size: 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.notification {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 9999;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s ease;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.notification.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.notification.hide{
+  opacity: 0;
+}
+
+.message {
+  font-size: 16px;
+}

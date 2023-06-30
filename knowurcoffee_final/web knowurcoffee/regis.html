@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/regis.css">
+    <title>University</title>
+</head>
+<body>
+    <nav class="navi">
+        <div class="nav-logo">
+            <img src="assets/logocoffee.png" alt="Logo">
+        </div>
+    </nav>
+
+    <div class="login">
+        <div class="form">
+
+            <div class="container"></div>
+
+                <form method="post">
+                    <div class="logintitle">
+                        <h1>Register</h1>
+                    </div>
+                    <div class="form-input">
+                        <div class="toprow">
+                            <div class="text">
+                                <label class="detail">Username</label>
+                                <input type="text" required>
+                            </div>
+                            
+                            <div class="text">
+                                <label class="detail">Email</label>
+                                <input type="email" required>
+                            </div>
+                        </div>   
+                        
+                        <div class="bottomrow">
+                            <div class="text">
+                                <label class="detail">Password</label>
+                                <input type="password" required>
+                                <span></span>
+                            </div>
+
+                            <div class="text">
+                                <label class="detail">Verify password</label>
+                                <input type="password" required>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sub" onclick="gotopage()"><input type="submit" value="Register"></div>
+
+                    <script>
+                        function gotopage(){
+                            window.location.href = "newhome.html"
+                        }
+                    </script>
+
+                    <div class="signup">
+                        <a href="login.html">Log In existing account</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="about_us"></div>
+
+</body>
+</html>

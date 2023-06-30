@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="java.js"></script>
+    <title>University</title>
+</head>
+<body>
+    <nav class="navi">
+        <div class="nav-logo">
+            <img src="assets/logocoffee.png" alt="Logo">
+        </div>
+    </nav>
+
+    <div class="login">
+        <div class="form">
+            <form method="post">
+                <div class="logintitle">
+                    <h1>Login</h1>
+                </div>
+
+                <label class="us">Username</label>
+                <div class="text">
+                    <input id="name" type="text" required>
+                    <span></span>
+                </div>
+                
+                <label class="ps">Password</label>
+                <div class="text">
+                    <input id="pass" type="password" required>
+                    <span></span>
+                </div>
+
+                <div class="sub" onclick="gotopage()"><input type="submit" value="log In"></div>
+
+                <script>
+                    function gotopage(){
+                        window.location.href = "newhome.html"
+                    }
+                </script>
+                
+                <div class="signup">
+                    <a href="regis.html">Create Account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="about_us"></div>
+    
+</body>
+</html>

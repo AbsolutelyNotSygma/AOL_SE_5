@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+body{
+  background-color: #141414;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #0B0A0A;
+}
+
+#nav .leftnav {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  height: 100%;
+  font-family: "Poppins";
+}
+
+.logo img{
+  width: 120px;
+  height: auto;
+  padding: 20px;
+}
+
+#nav .leftnav h1 {
+  font-size: 35px;
+  color: #9B824D;
+  padding: 20px 20px;
+  font-family: "Poppins";
+  margin-right: 70px;
+}
+
+#nav .leftnav .menuBar button {
+  display: none;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+}
+
+#nav .leftnav .links {
+  display: flex;
+  gap: 100px;
+}
+
+#nav .leftnav .links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#nav .leftnav .links a:hover {
+  text-decoration: underline;
+  color: #9B824D;
+}
+
+#nav .rightnav a img {
+  padding-right: 20px;
+  width: 50px;
+  height: auto;
+}
+.rectangle-div{
+  background-color: #141414;
+}
+
+.types-coffee-child {
+    position: absolute;
+    top: 136.5px;
+    left: -0.5px;
+    border-top: 1px solid white;
+    box-sizing: border-box;
+    background-color: black;
+    width: 1441px;
+    height: 1px;
+  }
+  .types-coffee-item {
+    position: absolute;
+    top: 37px;
+    left: 1340px;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+  }
+  .home,
+  .how-to,
+  .shop,
+  .types {
+    position: absolute;
+    top: 38px;
+    left: 173px;
+    font-size: var(--font-size-5xl);
+    font-weight: 800;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 223px;
+    height: 62px;
+  }
+  .how-to,
+  .shop,
+  .types {
+    left: 396px;
+    color: white;
+  }
+  .how-to,
+  .shop {
+    left: 619px;
+    color: white;
+  }
+  .shop {
+    left: 842px;
+  }
+  .image-21-icon {
+    position: absolute;
+    top: 29px;
+    left: 42px;
+    width: 68px;
+    height: 81px;
+    object-fit: cover;
+  }
+  .types-coffee-inner {
+    position: absolute;
+    top: 44px;
+    left: 1049px;
+    border-radius: 30px;
+    background-color:white;
+    width: 231px;
+    height: 50px;
+  }
+  .material-symbolssearch-icon {
+    position: absolute;
+    top: 54px;
+    left: 1061px;
+    width: 32px;
+    height: 30px;
+    overflow: hidden;
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 385px;
+    left: 43px;
+    background-color: #9B824D;
+    width: 307px;
+    height: 719px;
+  }
+  .origin-ethiopia {
+    position: absolute;
+    top: 677px;
+    left: 130px;
+    color: #020202;
+    font-family: poppins;
+  }
+  .coffee {
+    color: var(--color-tan);
+  }
+  .types-of-coffee-container1 {
+    line-break: anywhere;
+    width: 100%;
+  }
+  .arabica,
+  .types-of-coffee-container {
+    position: absolute;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+  }
+  .types-of-coffee-container {
+    top: 145px;
+    left: 43px;
+    font-size: 48px;
+    text-align: left;
+    width: 609px;
+    height: 121px;
+    color: #9B824D;
+  }
+  .arabica {
+    top: 611px;
+    left: 96px;
+    font-family: poppins;
+    font-size: var(--font-size-13xl);
+    color: #0b0101;
+    justify-content: center;
+    width: 190px;
+    height: 62px;
+  }
+  .types-coffee-child1 {
+    position: absolute;
+    top: 385px;
+    left: 1094px;
+    background-color: #9B824D;
+    width: 307px;
+    height: 719px;
+  }
+  .robusta {
+    position: absolute;
+    top: 611px;
+    left: 1147px;
+    font-family: poppins;
+    font-size: var(--font-size-13xl);
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 62px;
+  }
+  .image-34-icon {
+    position: absolute;
+    top: 463px;
+    left: 1166px;
+    width: 173px;
+    height: 144px;
+    object-fit: cover;
+  }
+  .types-coffee-child2 {
+    position: absolute;
+    top: 385px;
+    left: 751px;
+    background-color: #9B824D;
+    width: 307px;
+    height: 719px;
+  }
+  .liberica {
+    position: absolute;
+    top: 611px;
+    left: 804px;
+    font-family: poppins;
+    font-size: var(--font-size-13xl);
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 62px;
+  }
+  .image-35-icon {
+    position: absolute;
+    top: 463px;
+    left: 823px;
+    width: 173px;
+    height: 144px;
+    object-fit: cover;
+  }
+  .image-34-icon1,
+  .types-coffee-child3,
+  .types-coffee-child4,
+  .types-coffee-child5 {
+    position: absolute;
+    top: 967.4px;
+    left: 43px;
+    width: 307px;
+    height: 143px;
+    object-fit: cover;
+  }
+  .image-34-icon1,
+  .types-coffee-child4,
+  .types-coffee-child5 {
+    left: 751px;
+  }
+  .image-34-icon1,
+  .types-coffee-child5 {
+    left: 1094px;
+  }
+  .image-34-icon1 {
+    top: 463px;
+    left: 105px;
+    width: 173px;
+    height: 144px;
+  }
+  .origin-central,
+  .origin-sub {
+    position: absolute;
+    top: 677px;
+    left: 1120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 256px;
+  }
+  .origin-central {
+    left: 763px;
+    width: 287px;
+  }
+  .types-coffee-child6 {
+    position: absolute;
+    top: 385px;
+    left: 394px;
+    background-color: #9B824D;
+    width: 307px;
+    height: 719px;
+  }
+  .arabica-is-the,
+  .excelsa {
+    position: absolute;
+    top: 737px;
+    left: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 237px;
+  }
+  .excelsa {
+    top: 611px;
+    left: 447px;
+    font-size: var(--font-size-13xl);
+    font-weight: 800;
+    width: 190px;
+    height: 62px;
+  }
+  .image-36-icon,
+  .types-coffee-child7 {
+    position: absolute;
+    top: 463px;
+    left: 466px;
+    width: 173px;
+    height: 144px;
+    object-fit: cover;
+  }
+  .types-coffee-child7 {
+    top: 967.4px;
+    left: 394px;
+    width: 307px;
+    height: 143px;
+  }
+  .excelsa-have-a,
+  .liberica-has-a,
+  .origin-southeast,
+  .robusta-have-a {
+    position: absolute;
+    top: 677px;
+    left: 417px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 271px;
+  }
+  .excelsa-have-a,
+  .liberica-has-a,
+  .robusta-have-a {
+    top: 727px;
+    left: 427px;
+    width: 237px;
+  }
+  .liberica-has-a,
+  .robusta-have-a {
+    top: 744px;
+    left: 780px;
+  }
+  .robusta-have-a {
+    font-family: poppins;
+    top: 764px;
+    left: 1129px;
+    align-items: flex-end;
+  }
+  .arrow-icon {
+    position: absolute;
+    top: 332.95px;
+    left: 89.5px;
+    width: 1249px;
+    height: 22.09px;
+  }
+  .more-acidity,
+  .more-bitterness {
+    position: absolute;
+    top: 289px;
+    left: 1165px;
+    font-size: var(--font-size-13xl);
+    color: white;
+    text-align: left;
+  }
+  .more-acidity {
+    left: 150px;
+  }
+  .types-coffee {
+    position: relative;
+    background-color: rgba(11, 10, 10, 0.5);
+    max-width: 400vh;
+    min-height: 125vh;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    background-color: #141414;
+    font-family: poppins;
+}
+
+.stuff{
+  padding-bottom: 100px;
+}
+  
